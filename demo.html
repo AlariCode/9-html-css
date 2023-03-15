@@ -7,37 +7,16 @@
     <title>Demo</title>
   </head>
   <body>
-    <form action="/test">
-      <input type="hidden" name="hid" value="1" />
-      <!-- /test?hid=&email=dsfsdf%40ae.ru&password=afadfaf&birtyDate=2023-03-10&color=%23871212 -->
+    <form action="https://www.youtube.com/results">
       <div>
-        <label for="email">Введите email</label>
+        <label for="query">Введите запрос</label>
         <input
-          type="email"
-          placeholder="Email пользователя"
-          id="email"
-          name="email"
-          value="no@email.ru"
+          type="text"
+          placeholder="Запрос..."
+          id="query"
+          name="search_query"
         />
       </div>
-      <label for="password">Введите пароль</label>
-      <input
-        type="password"
-        placeholder="Пароль пользователя"
-        id="password"
-        name="password"
-      />
-      <label for="birtyDate">Введите дату рождения</label>
-      <input
-        type="date"
-        placeholder="Дата рождения"
-        id="birtyDate"
-        name="birtyDate"
-      />
-      <label for="color">Введите цвет</label>
-      <input type="color" id="color" name="color" />
-      <button type="submit">Кнопка</button>
-    </form>
-    <button>Кнопка вне формы</button>
+    <button>Искать на YouTube</button>
   </body>
 </html>
