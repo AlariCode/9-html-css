@@ -8,24 +8,35 @@
   </head>
   <body>
     <form action="/test">
+      <input type="hidden" name="hid" value="1" />
+      <!-- /test?hid=&email=dsfsdf%40ae.ru&password=afadfaf&birtyDate=2023-03-10&color=%23871212 -->
       <div>
         <label for="email">Введите email</label>
-        <input type="email" placeholder="Email пользователя" id="email" />
+        <input
+          type="email"
+          placeholder="Email пользователя"
+          id="email"
+          name="email"
+          value="no@email.ru"
+        />
       </div>
       <label for="password">Введите пароль</label>
-      <input type="password" placeholder="Пароль пользователя" id="password" />
+      <input
+        type="password"
+        placeholder="Пароль пользователя"
+        id="password"
+        name="password"
+      />
       <label for="birtyDate">Введите дату рождения</label>
-      <input type="date" placeholder="Дата рождения" id="birtyDate" />
+      <input
+        type="date"
+        placeholder="Дата рождения"
+        id="birtyDate"
+        name="birtyDate"
+      />
       <label for="color">Введите цвет</label>
-      <input type="color" id="color" />
-      <label>
-        <span>Число</span>
-        <input type="number" placeholder="Число" />
-      </label>
+      <input type="color" id="color" name="color" />
       <button type="submit">Кнопка</button>
-      <button type="reset">Сброс</button>
-      <input type="button" value="Кнопка 2" />
-      <input type="submit" value="Кнопка submit" />
     </form>
     <button>Кнопка вне формы</button>
   </body>
