@@ -15,7 +15,13 @@
           placeholder="Запрос..."
           id="query"
           name="search_query"
+          title="Введите только цифры"
+          minlength="3"
+          maxlength="20"
+          pattern="/^\d+$/"
         />
+        <input type="email" name="email" id="" />
+        <input type="url" name="url" id="" />
       </div>
       <div>
         <label for="agree">Согласен с обработкой данных</label>
