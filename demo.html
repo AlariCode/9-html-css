@@ -7,75 +7,40 @@
     <title>Demo</title>
   </head>
   <body>
+    <h1>Свяжитесь со мной</h1>
     <form action="#">
       <div>
-        <label for="query">Введите запрос</label>
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Введите email"
+          name="email"
+          required
+        />
+      </div>
+      <div>
+        <label for="telegram">Telegram</label>
         <input
           type="text"
-          placeholder="Запрос..."
-          id="query"
-          name="search_query"
-          title="Введите только цифры"
-          minlength="3"
-          maxlength="20"
-          pattern="/^\d+$/"
+          id="telegram"
+          placeholder="Введите свой telegram"
+          name="telegram"
         />
-        <input type="email" name="email" id="" />
-        <input type="url" name="url" id="" />
       </div>
       <div>
-        <label for="agree">Согласен с обработкой данных</label>
-        <input type="checkbox" name="agree" id="agree" />
-      </div>
-      <div>
-        <input type="radio" name="search" id="all" value="all" />
-        <label for="all">Поиск повсюду</label>
-      </div>
-      <div>
-        <input type="radio" name="search" id="youtube" value="youtube" />
-        <label for="youtube">Поиск на YouTube</label>
-      </div>
-      <div>
-        <label for="topic">Тематика</label>
-        <select name="topic" id="topic">
-          <option value="1">Все</option>
-          <optgroup label="Популярные">
-            <option value="2">Животные</option>
-            <option value="3" selected>Разработка</option>
-          </optgroup>
-
-          <optgroup label="Популярные">
-            <option value="2">Животные</option>
-            <option value="3" selected>Разработка</option>
-          </optgroup>
+        <label for="topic">Тема</label>
+        <select name="topic" id="topic" required>
+          <option value="buy">Приобретение курсов</option>
+          <option value="payments">Вопрос по оплате</option>
+          <option value="training">Заказ тренинга</option>
         </select>
       </div>
       <div>
-        <label for="volume">Громкость</label>
-        <input
-          type="range"
-          name="volume"
-          id="volume"
-          min="0"
-          max="10"
-          step="2"
-        />
+        <label for="comment">Комментарий</label>
+        <textarea name="comment" id="comment" cols="30" rows="20"></textarea>
       </div>
-      <div>
-        <label for="num">Оценка</label>
-        <input type="number" name="num" id="num" min="1" max="5" step="1" />
-      </div>
-      <div>
-        <label for="text">Комменатрий</label>
-        <textarea
-          name="text"
-          id="text"
-          rows="10"
-          cols="100"
-          placeholder="Введите текст"
-        ></textarea>
-      </div>
-      <button>Искать на YouTube</button>
+      <button>Отправить</button>
     </form>
   </body>
 </html>
