@@ -4,6 +4,8 @@ main {
 
 h1 {
 	color: #FAFAFA;
+	font-size: 36px;
+	font-weight: 700;
 }
 
 input, textarea, select {
