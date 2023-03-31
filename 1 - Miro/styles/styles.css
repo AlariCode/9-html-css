@@ -36,3 +36,10 @@ header a {
 	color: #050038;
 	text-decoration: none;
 }
+
+.heroForm + p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #050038;
+}
