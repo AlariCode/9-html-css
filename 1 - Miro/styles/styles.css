@@ -7,3 +7,24 @@
 	color: #4262FF;
 	text-decoration: underline;
 }
+
+h1, h2 {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 56px;
+	color: #050038;
+}
+
+p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.heroText {
+	color: #050038;
+}
+
+.sectionText {
+	color: #696688;
+}
