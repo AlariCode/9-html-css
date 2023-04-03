@@ -1,3 +1,4 @@
+
 #heroButton {
 	background-color: #4262FF;
 	color: #FFFFFF;
@@ -15,12 +16,18 @@
 	background-color: aliceblue;
 }
 
-ul li:nth-last-child(1) {
+a::after {
 	color: red;
+	content: " ! ";
 }
 
-p:not(.sectionText) {
+a::before {
 	color: red;
+	content: " ! ";
+}
+
+a::selection {
+	background-color: #071766;
 }
 
 .link {
