@@ -3,9 +3,33 @@
 	color: #FFFFFF;
 }
 
+#heroButton:hover {
+	background-color: #122db6;
+}
+
+#heroButton:active {
+	background-color: #071766;
+}
+
+.heroForm input:focus {
+	background-color: aliceblue;
+}
+
+ul li:first-child {
+	color: #4262FF;
+}
+
+ul li:last-child {
+	color: red;
+}
+
 .link {
 	color: #4262FF;
 	text-decoration: underline;
+}
+
+.link:hover {
+	color: #122db6;
 }
 
 h1, h2 {
