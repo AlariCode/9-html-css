@@ -15,11 +15,11 @@
 	background-color: aliceblue;
 }
 
-ul li:first-child {
-	color: #4262FF;
+ul li:nth-last-child(1) {
+	color: red;
 }
 
-ul li:last-child {
+p:not(.sectionText) {
 	color: red;
 }
 
