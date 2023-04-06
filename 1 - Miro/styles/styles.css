@@ -16,20 +16,6 @@
 	background-color: aliceblue;
 }
 
-a::after {
-	color: red;
-	content: " ! ";
-}
-
-a::before {
-	color: red;
-	content: " ! ";
-}
-
-a::selection {
-	background-color: #071766;
-}
-
 .link {
 	color: #4262FF;
 	text-decoration: underline;
@@ -73,4 +59,13 @@ header a {
 	font-size: 14px;
 	line-height: 20px;
 	color: #050038;
+}
+
+nav ul {
+	list-style: none;
+}
+
+.sectionList {
+	list-style-type: none;
+	list-style-image: url('../images/check.svg');
 }
