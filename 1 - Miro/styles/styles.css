@@ -1,4 +1,3 @@
-
 #heroButton {
 	background-color: #4262FF;
 	color: #FFFFFF;
@@ -6,6 +5,10 @@
 
 #heroButton:hover {
 	background-color: #122db6;
+}
+
+#heroButton.test.test2 {
+	background-color: #4262FF;
 }
 
 #heroButton:active {
@@ -76,6 +79,10 @@ nav ul {
 
 .experimentRed {
 	background: red;
+}
+
+div.experimentBlue {
+	background: #050038;
 }
 
 .experimentBlue {
