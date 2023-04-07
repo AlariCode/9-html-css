@@ -7,12 +7,12 @@
 	background-color: #122db6;
 }
 
-#heroButton.test.test2 {
-	background-color: #4262FF;
-}
-
 #heroButton:active {
 	background-color: #071766;
+}
+
+button {
+	background-color: #FFFFFF !important;
 }
 
 .heroForm input:focus {
