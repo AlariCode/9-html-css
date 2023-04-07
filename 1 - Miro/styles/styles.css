@@ -75,7 +75,19 @@ nav ul {
 
 .experimentBlue {
 	background: blue;
-	width: 200px;
+	width: 400px;
 	height: 400px;
 	color: white;
+}
+
+.border1 {
+	/* border-width: 5px; */
+	/* border-style: solid dashed dotted; */
+	/* border-color: #050038; */
+	box-sizing: border-box;
+
+	border: 5px dashed #050038;
+
+	border-left: 10px solid #071766;
+	border-radius: 50%;
 }
