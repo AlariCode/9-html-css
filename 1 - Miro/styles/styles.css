@@ -1,27 +1,13 @@
-#heroButton {
-	background-color: #4262FF;
-	color: #FFFFFF;
+body {
+	margin: 0;
 }
 
-#heroButton:hover {
-	background-color: #122db6;
+h1 {
+	margin: 0 0 17px 0;
 }
 
-#heroButton:active {
-	background-color: #071766;
-}
-
-.heroForm input:focus {
-	background-color: aliceblue;
-}
-
-.link {
-	color: #4262FF;
-	text-decoration: underline;
-}
-
-.link:hover {
-	color: #122db6;
+h2 {
+	margin: 0 0 19px 0;
 }
 
 h1, h2 {
@@ -37,13 +23,6 @@ p {
 	line-height: 24px;
 }
 
-.heroText {
-	color: #050038;
-}
-
-.sectionText {
-	color: #696688;
-}
 
 header a {
 	font-weight: 400;
@@ -53,15 +32,85 @@ header a {
 	text-decoration: none;
 }
 
-.heroForm + p {
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 20px;
-	color: #050038;
+
+nav {
+	padding: 33px 50px;
+	border-bottom: 1px solid #F0F0F0;
+	margin-bottom: 60px;
 }
 
 nav ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	background: #050038;
+	padding: 47px 40px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.heroForm+p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #050038;
+	margin: 8px 0 52px 0;
+}
+
+.heroText {
+	color: #050038;
+	margin: 0 0 55px 0;
+}
+
+.sectionText {
+	color: #696688;
+	margin: 0 0 40px 0;
+}
+
+#heroButton {
+	background-color: #4262FF;
+	color: #FFFFFF;
+}
+
+#heroButton:hover {
+	background-color: #122db6;
+}
+
+#heroButton:active {
+	background-color: #071766;
+}
+
+.heroForm input {
+	border-radius: 32px;
+	border: 1px solid #9B99AF;
+	height: 38px;
+	padding: 5px 10px;
+}
+
+.heroForm button {
+	height: 48px;
+	border: 1px solid #4262FF;
+	border-radius: 32px;
+	padding: 10px 20px;
+}
+
+.heroForm input:focus {
+	background-color: aliceblue;
+}
+
+.link {
+	color: #4262FF;
+	text-decoration: underline;
+}
+
+.link:hover {
+	color: #122db6;
 }
 
 .sectionList {
