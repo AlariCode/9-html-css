@@ -86,6 +86,10 @@ footer a {
 	background-color: #071766;
 }
 
+#heroImage {
+	float: right;
+}
+
 .heroForm input {
 	border-radius: 32px;
 	border: 1px solid #9B99AF;
