@@ -135,3 +135,50 @@ footer a {
 	border: 5px solid #696688;
 	margin: 10px auto;
 }
+
+.divR {
+	background: red;
+	display: inline;
+}
+
+.divB {
+	background: blue;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.divG {
+	background: green;
+	display: inline;
+}
+
+
+.spanR {
+	background: red;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.spanB {
+	background: blue;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.spanG {
+	background: green;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+}
