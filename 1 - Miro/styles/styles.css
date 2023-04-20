@@ -122,23 +122,11 @@ footer a {
 	content: url('../images/check.svg');
 }
 
-
-#hero {
-	font-size: 16px;
+ul > li {
+	font-size: 2rem;
+	margin-bottom: 1em;
 }
 
-h1 {
-	font-size: 3em;
-}
-
-.heroText {
-	font-size: 2em;
-}
-
-#heroButton {
-	height: 3em;
-	border: 1px solid #4262FF;
-	border-radius: 2em;
-	padding: 1em 2em;
-	font-size: 1em;
+html {
+	font-size: 10px;
 }
