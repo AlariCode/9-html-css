@@ -2,6 +2,10 @@ body {
 	background-color: #0f0f14;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 main {
 	background-color: #1E1F29;
 	border-radius: 10px;
@@ -27,6 +31,7 @@ input, textarea, select {
 	padding: 27px 48px 12px;
 	border-radius: 10px;
 	border: none;
+	width: 100%;
 }
 
 input::placeholder,
