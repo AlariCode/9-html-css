@@ -1,32 +1,70 @@
+body {
+	background-color: #0f0f14;
+}
+
 main {
 	background-color: #1E1F29;
+	border-radius: 10px;
+	padding: 48px;
 }
 
 h1 {
 	color: #FAFAFA;
 	font-size: 36px;
 	font-weight: 700;
-	font-family: 'Andale Mono', monospace;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0 0 32px 0;
 }
 
 input, textarea, select {
 	background: #2E2D3D;
 	color: #FAFAFA;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	font-family: sans-serif;
+	padding: 27px 48px 12px;
+	border-radius: 10px;
+	border: none;
 }
 
-input:invalid {
-	background: red;
-}
-
-input:valid {
-	background: green;
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+	color: #4a4863;
+	font-size: 16px;
 }
 
 label {
+	position: absolute;
+	top: 12px;
+	left: 48px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 120%;
 	color: #AFB2BF;
 }
 
 button {
 	background-color: #6C38CC;
 	color: #FAFAFA;
+	border: none;
+	border-radius: 10px;
+	padding: 12px 24px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	text-align: center;
+}
+
+.field {
+	margin-bottom: 16px;
+	position: relative;
+}
+
+.field img {
+	position: absolute;
+	top: 17px;
+	left: 16px;
 }

@@ -11,7 +11,8 @@
     <main>
       <h1>Свяжитесь со мной</h1>
       <form action="#">
-        <div>
+        <div class="field">
+          <img src="./images/message.svg" alt="иконка сообщения" />
           <label for="email">E-mail</label>
           <input
             type="email"
@@ -21,7 +22,8 @@
             required
           />
         </div>
-        <div>
+        <div class="field">
+          <img src="./images/telegram.svg" alt="иконка сообщения" />
           <label for="telegram">Telegram</label>
           <input
             type="text"
@@ -30,7 +32,8 @@
             name="telegram"
           />
         </div>
-        <div>
+        <div class="field">
+          <img src="./images/topic.svg" alt="иконка сообщения" />
           <label for="topic">Тема</label>
           <select name="topic" id="topic" required>
             <option value="buy">Приобретение курсов</option>
@@ -38,7 +41,7 @@
             <option value="training">Заказ тренинга</option>
           </select>
         </div>
-        <div>
+        <div class="field">
           <label for="comment">Комментарий</label>
           <textarea name="comment" id="comment" cols="30" rows="20"></textarea>
         </div>
