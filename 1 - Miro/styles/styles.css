@@ -4,7 +4,6 @@ body {
 
 h1 {
 	margin: 0 0 17px 0;
-	text-align: end;
 }
 
 h2 {
@@ -87,10 +86,6 @@ footer a {
 	background-color: #071766;
 }
 
-#heroImage {
-	float: right;
-}
-
 .heroForm input {
 	border-radius: 32px;
 	border: 1px solid #9B99AF;
@@ -127,89 +122,23 @@ footer a {
 	content: url('../images/check.svg');
 }
 
-.experimentBlue {
-	background: #071766;
-	width: 400px;
-	height: 400px;
-	color: white;
-	padding: 10px 20px 50px 30px;
-	border: 5px solid #696688;
-	margin: 10px auto;
+
+#hero {
+	font-size: 16px;
 }
 
-.divR {
-	background: red;
-	display: inline;
+h1 {
+	font-size: 3em;
 }
 
-.divB {
-	background: blue;
-	display: inline-block;
-	padding: 20px;
-	margin: 20px;
-	width: 200px;
-	height: 200px;
+.heroText {
+	font-size: 2em;
 }
 
-.divG {
-	background: green;
-	display: inline;
-}
-
-
-.cl1 {
-	background: red;
-	display: inline-block;
-	padding: 20px;
-	margin: 20px;
-	width: 100px;
-	height: 100px;
-}
-
-.cl2 {
-	background: blue;
-	display: inline-block;
-	padding: 20px;
-	margin: 20px;
-	width: 100px;
-	height: 100px;
-}
-
-.cl3 {
-	background: green;
-	display: inline-block;
-	padding: 20px;
-	margin: 20px;
-	width: 100px;
-	height: 100px;
-}
-
-.static .cl2 {
-	position: static;
-}
-
-.relative .cl2 {
-	position: relative;
-	top: 50px;
-	left: -50px;
-}
-.absolute {
-	position: relative;
-}
-.absolute .cl2 {
-	position: absolute;
-	top: 50px;
-	left: 50px;
-}
-
-.fixed .cl2 {
-	/* position: fixed; */
-	top: 50px;
-	left: 50px;
-}
-
-.sticky .cl2 {
-	position: sticky;
-	top: 50px;
-	left: 50px;
+#heroButton {
+	height: 3em;
+	border: 1px solid #4262FF;
+	border-radius: 2em;
+	padding: 1em 2em;
+	font-size: 1em;
 }
