@@ -83,7 +83,9 @@ footer a {
 }
 
 #heroButton:hover {
+	transition: background-color 1s 1s, border-radius 2s 1s;
 	background-color: #122db6;
+	border-radius: 50%;
 }
 
 #heroButton:active {
@@ -124,8 +126,4 @@ footer a {
 
 .sectionList li::marker {
 	content: url('../images/check.svg');
-}
-
-footer {
-	height: 100vh;
 }
