@@ -133,30 +133,26 @@ footer a {
 	height: 200px;
 	background-color: #050038;
 	margin: 10px;
-	transition: margin-left 2s;
+	color: white;
+	font-size: 24px;
 }
 
 .exp div:nth-child(1) {
-	margin-left: 400px;
-	transition-timing-function: ease-out;
+	transform: rotate(45deg);
+	/* transform-origin: left bottom; */
 }
 
 .exp div:nth-child(2) {
-	margin-left: 400px;
-	transition-timing-function: ease-in;
+	transform: scale(2, 1);
 }
 
 .exp div:nth-child(3) {
-	margin-left: 400px;
-	transition-timing-function: linear;
+	transform: translateX(300px);
 }
 
 .exp div:nth-child(4) {
-	margin-left: 400px;
-	transition-timing-function: steps(6, end);
+	transform: skew(10deg);
 }
 
 .exp div:nth-child(5) {
-	margin-left: 400px;
-	transition-timing-function: cubic-bezier(.01, 1.06, .63, -0.91);
 }
