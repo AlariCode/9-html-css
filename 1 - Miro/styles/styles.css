@@ -166,3 +166,15 @@ footer a {
 		transform: translateX(0%) translateY(0%);
 	}
 }
+
+@media (min-width: 500px) {
+	h1 {
+		color: red;
+	}
+}
+
+@media (max-width: 500px) {
+	h2 {
+		display: none;
+	}
+}
