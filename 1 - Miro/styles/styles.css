@@ -135,24 +135,34 @@ footer a {
 	margin: 10px;
 	color: white;
 	font-size: 24px;
+
+	animation-name: my-move;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	animation-iteration-count: 5;
+	animation-direction: alternate;
 }
 
-.exp div:nth-child(1) {
-	transform: rotate(45deg);
-	/* transform-origin: left bottom; */
+.exp:hover div {
+	animation-play-state: paused;
 }
 
-.exp div:nth-child(2) {
-	transform: scale(2, 1);
-}
+@keyframes my-move {
+	25% {
+		transform: translateX(100%);
+	}
 
-.exp div:nth-child(3) {
-	transform: translateX(300px);
-}
+	50% {
+		transform: translateX(100%) translateY(-100%);
+	}
 
-.exp div:nth-child(4) {
-	transform: skew(10deg);
-}
-
-.exp div:nth-child(5) {
+	75% {
+		transform: translateX(0%) translateY(-100%)
+	}
+	
+	100% {
+		transform: translateX(0%) translateY(0%);
+	}
 }
