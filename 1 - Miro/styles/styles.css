@@ -130,40 +130,11 @@ footer a {
 }
 
 .exp div {
-	width: 200px;
+	width: calc(100% / 3);
+	/* width: 33.33333333%; */
 	height: 200px;
 	background-color: #050038;
 	margin: 10px;
 	color: white;
 	font-size: 24px;
-
-	animation-name: my-move;
-	animation-duration: 2s;
-	animation-timing-function: ease;
-	animation-fill-mode: forwards;
-	animation-delay: 1s;
-	animation-iteration-count: 5;
-	animation-direction: alternate;
-}
-
-.exp:hover div {
-	animation-play-state: paused;
-}
-
-@keyframes my-move {
-	25% {
-		transform: translateX(100%);
-	}
-
-	50% {
-		transform: translateX(100%) translateY(-100%);
-	}
-
-	75% {
-		transform: translateX(0%) translateY(-100%)
-	}
-	
-	100% {
-		transform: translateX(0%) translateY(0%);
-	}
 }
