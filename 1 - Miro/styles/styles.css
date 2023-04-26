@@ -17,7 +17,7 @@ h2 {
 h1, h2 {
 	font-weight: 400;
 	/* font-size: 48px; */
-	font-size: 4vmax;
+	font-size: max(4vw, 48px);
 	line-height: 56px;
 	color: #050038;
 }
@@ -130,8 +130,7 @@ footer a {
 }
 
 .exp div {
-	width: calc(100% / 3);
-	/* width: 33.33333333%; */
+	width: calc(100% - max(20%, 200px));
 	height: 200px;
 	background-color: #050038;
 	margin: 10px;
