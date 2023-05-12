@@ -1,0 +1,45 @@
+/*
+Б - Блок (class)
+Э - Элменет блока
+М - Модификато блока
+*/
+
+body {
+	background: #16171D;
+}
+
+.section-header {
+
+}
+
+.section-header__top {
+
+}
+
+.section-header__h2 {
+
+}
+
+.button {
+	padding: 16px 32px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	border-radius: 10px;
+	background: none;
+	border: none;
+}
+
+.button_primary {
+	background: #6C38CC;
+	color: white;
+}
+
+.button_ghost {
+	border: 1px solid #4D5064;
+	color: white;
+}
+
+.hero__button {
+	margin-top: 32px;
+}
