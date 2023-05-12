@@ -4,6 +4,15 @@
 М - Модификато блока
 */
 
+:root {
+	--color-primary: #6C38CC;
+	--space-10: 10px;
+}
+
+html {
+	--color-primary: green;
+}
+
 body {
 	background: #16171D;
 }
@@ -28,10 +37,12 @@ body {
 	border-radius: 10px;
 	background: none;
 	border: none;
+	margin-bottom: var(--space-10);
 }
 
 .button_primary {
-	background: #6C38CC;
+	background: var(--color-primary,red);
+	/* background: #6C38CC; */
 	color: white;
 }
 
