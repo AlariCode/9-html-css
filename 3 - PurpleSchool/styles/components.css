@@ -1,0 +1,34 @@
+/* Section */
+
+.section_light {
+	background-color: var(--color-bg-medium);
+}
+
+/* Button */
+.button {
+	padding: 16px 32px;
+	color: var(--color-text);
+	background: none;
+	border: none;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	border-radius: var(--border-10);
+	cursor: pointer;
+}
+
+.button_primary {
+	background: var(--color-primary);
+}
+
+.button_primary:hover {
+	background: var(--color-primary-hover);
+}
+
+.button_ghost {
+	border: 1px solid var(--color-stroke);
+}
+
+.button_ghost:hover {
+	background: var(--color-bg-medium);
+}
