@@ -1,12 +1,23 @@
 :root {
 	--color-primary: #6C38CC;
-	--space-10: 10px;
-}
-
-html {
-	--color-primary: green;
+	--color-text: #FAFAFA;
+	--color-link-hover: #AFB2BF;
+	--color-bg: #16171D;
+	--color-bg-medium: #1E1F29;
+	--color-bg-light: #2E2D3D;
+	--color-stroke: #4D5064;
+	
+	--border-8: 8px;
 }
 
 body {
-	background: #16171D;
+	background: var(--color-bg);
+	margin: 0;
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
 }
