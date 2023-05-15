@@ -13,7 +13,7 @@
 body {
 	background: var(--color-bg);
 	margin: 0;
-	font-family: 'Fira Sans';
+	font-family: 'Fira Sans', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
