@@ -22,6 +22,7 @@
 	border-radius: var(--border-10);
 	cursor: pointer;
 	display: inline-block;
+	text-align: center;
 }
 
 .button_primary {
@@ -87,6 +88,15 @@
 	color: var(--color-text);
 	margin: 0 0 32px 0;
 }
+
+@media (max-width: 860px) {
+	.headling__buttom {
+		font-weight: 400;
+		font-size: 34px;
+		line-height: 120%;
+	}
+}
+
 
 /* Paragraph */
 
@@ -169,4 +179,14 @@
 	font-size: 16px;
 	line-height: 150%;
 	color: var(--color-text);
+}
+
+@media (max-width: 860px) {
+	.post {
+		flex-direction: column;
+	}
+
+	.post__header {
+		font-size: 21px;
+	}
 }
