@@ -12,11 +12,12 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 36px;
+	gap: 24px;
 }
 
 .footer__menu {
 	display: flex;
-	gap: 80px;
+	gap: 24px 80px;
 	margin-bottom: 48px;
 }
 
@@ -53,4 +54,17 @@
 	font-size: 16px;
 	line-height: 150%;
 	color: var(--color-link-hover);
+}
+
+@media (max-width: 860px) {
+	.footer__menu {
+		flex-direction: column;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 640px) {
+	.footer__social {
+		flex-direction: column;
+	}
 }
