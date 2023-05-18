@@ -4,6 +4,12 @@
 	background-color: var(--color-bg-medium);
 }
 
+.section__wrapper {
+	max-width: var(--layout-width);
+	margin: 0 auto;
+	padding: 100px 24px;
+}
+
 /* Button */
 .button {
 	padding: 16px 32px;
@@ -15,6 +21,7 @@
 	line-height: 120%;
 	border-radius: var(--border-10);
 	cursor: pointer;
+	display: inline-block;
 }
 
 .button_primary {
@@ -30,7 +37,7 @@
 }
 
 .button_ghost:hover {
-	background: var(--color-bg-medium);
+	background: var(--color-bg-light);
 }
 
 @media (max-width: 640px) {
@@ -38,7 +45,6 @@
 		padding: 12px 32px;
 	}
 }
-
 
 /* Social */
 .social-icons {
@@ -58,4 +64,109 @@
 
 .social-icons__icon:hover {
 	background-color: var(--color-bg-medium);
+}
+
+/* Headling */
+
+.headling {
+	margin-bottom: 32px;
+}
+
+.headling__top {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	color: var(--color-secondary);
+	margin-bottom: 8px;
+}
+
+.headling__buttom {
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 120%;
+	color: var(--color-text);
+	margin: 0 0 32px 0;
+}
+
+/* Paragraph */
+
+.paragraph {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: var(--color-text);
+	max-width: 787px;
+}
+
+.paragraph_32 {
+	margin-bottom: 32px;
+}
+
+/* Card */
+
+.card {
+	background: var(--color-bg-medium);
+	border-radius: var(--border-10);
+}
+
+.card__32 {
+	padding: 32px;
+}
+
+/* post-wrapper */
+
+.post-wrapper {
+	margin-top: 48px;
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+	margin-bottom: 48px;
+}
+
+/* post */
+
+.post {
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+}
+
+.post__button a {
+	display: block;
+}
+
+.post__stats {
+	display: flex;
+	gap: 32px;
+}
+
+.post__stat {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	color: var(--color-link-hover);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+}
+
+.post__content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.post__header {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	color: var(--color-text);
+	margin: 0;
+}
+
+.post__description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: var(--color-text);
 }

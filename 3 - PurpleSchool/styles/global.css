@@ -21,6 +21,12 @@
 	box-sizing: border-box;
 }
 
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
 body {
 	background: var(--color-bg);
 	margin: 0;

@@ -34,6 +34,10 @@
 	gap: 32px;
 }
 
+.button-more {
+	text-align: center;
+}
+
 @media (max-width: 1200px) {
 	.hero {
 		flex-direction: column;
