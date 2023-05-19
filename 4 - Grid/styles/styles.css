@@ -46,6 +46,10 @@ body {
 
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr) auto; /* 1fr 1fr 1fr auto */
+	grid-template-columns: repeat(6, 1fr);
 	gap: 15px;
+}
+
+.item_11 {
+	grid-column: span 8;
 }
