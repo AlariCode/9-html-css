@@ -46,11 +46,12 @@ body {
 
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: [s-left] 200px 200px [sidebar] 1fr 1fr [s-right];
+	grid-template-rows: [s-start] repeat(3, 200px) [s-end];
 	gap: 15px;
 }
 
-.item_11 {
-	grid-column: span 2 / 3;
-	grid-row: 1 / 3;
+.item_9 {
+	grid-column: s-left / sidebar;
+	grid-row: s-start / s-end;
 }
