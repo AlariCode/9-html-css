@@ -51,5 +51,6 @@ body {
 }
 
 .item_11 {
-	grid-column: span 8;
+	grid-column: span 2 / 3;
+	grid-row: 1 / 3;
 }
