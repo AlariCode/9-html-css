@@ -48,44 +48,8 @@ body {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-	grid-template-areas: 
+	/* grid-template-areas: 
 		"🔥 🔥 🔥 🔥"
 		"sidebar content content content"
-		"footer footer footer footer";
-}
-
-.header {
-	grid-area: 🔥;
-}
-
-.sidebar {
-	grid-area: sidebar;
-}
-
-.content {
-	grid-area: content;
-}
-
-.footer {
-	grid-area: footer;
-}
-
-@media (max-width: 900px) {
-	.wrapper {
-		grid-template-areas:
-			"🔥 🔥 🔥 🔥"
-			"content content sidebar sidebar"
-			"footer footer footer footer";
-	}
-}
-
-@media (max-width: 500px) {
-	.wrapper {
-		/* grid-template-columns: 1fr; */
-		grid-template-areas:
-			"🔥 🔥 🔥 🔥"
-			"content content content content"
-			"sidebar sidebar sidebar sidebar"
-			"footer footer footer footer";
-	}
+		"footer footer footer footer"; */
 }
