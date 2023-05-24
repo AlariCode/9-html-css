@@ -46,19 +46,18 @@ body {
 
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-	/* grid-template-columns: repeat(3, 100px); */
-	grid-template-rows: repeat(10, 100px);
-	/* grid-template-columns: auto 100px 100px 100px; */
-	gap: 15px;
-	/* justify, align */
-	/* items, content, self */
-	justify-items: center;
-	align-items: center;
-	justify-content: start;
+	grid-template-columns: repeat(3, 100px);
+	grid-auto-flow: dense;
 }
 
-.item_9 {
-	justify-self: end;
-	align-self: start;
+.item_3 {
+	grid-column: 1 / -1;
+}
+
+.item_4 {
+	grid-column: span 2;
+}
+
+.item_5 {
+	grid-column: span 2;
 }
