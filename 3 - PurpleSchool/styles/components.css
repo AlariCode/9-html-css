@@ -203,6 +203,7 @@
 	border-radius: var(--border-10);
 	background: none;
 	cursor: pointer;
+	white-space: nowrap;
 }
 
 .chip:hover {
