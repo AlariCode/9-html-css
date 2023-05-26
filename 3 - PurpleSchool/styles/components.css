@@ -232,10 +232,9 @@
 	gap: 12px;
 }
 
-.course-card__cover {
-	height: 194px;
-	background-image: url('../images/cover.png');
-	background-size: contain;
+.course-card__cover img {
+	border-radius: var(--border-10) var(--border-10) 0 0;
+	width: 100%;
 }
 
 .course-card__title {
